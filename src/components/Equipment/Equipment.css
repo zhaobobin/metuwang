@@ -1,0 +1,45 @@
+a {
+  color: #666;
+}
+:global(.active) {
+  color: #1890ff;
+  text-decoration: none;
+  border: none;
+}
+.equipment .select {
+  margin: 20px 0;
+}
+.equipment .select .section .label {
+  float: left;
+}
+.equipment .select .section .label:after {
+  content: ':';
+}
+.equipment .select .section .link {
+  margin-left: 70px;
+}
+.equipment .select .section .link a {
+  padding: 0 10px;
+}
+.equipment .table :global(.ant-card) {
+  background: none;
+}
+.equipment .table :global(.ant-card-body) {
+  padding: 0;
+}
+.explore {
+  margin-top: 20px;
+}
+.explore .section {
+  margin-bottom: 20px;
+}
+.explore .section .title {
+  position: relative;
+}
+.explore .section .title a {
+  line-height: 20px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -10px;
+}

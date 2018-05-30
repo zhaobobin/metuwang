@@ -1,0 +1,29 @@
+.activeChart {
+  position: relative;
+}
+.activeChartGrid p {
+  position: absolute;
+  top: 80px;
+}
+.activeChartGrid p:last-child {
+  top: 115px;
+}
+.activeChartLegend {
+  position: relative;
+  font-size: 0;
+  margin-top: 8px;
+  height: 20px;
+  line-height: 20px;
+}
+.activeChartLegend span {
+  display: inline-block;
+  font-size: 12px;
+  text-align: center;
+  width: 33.33%;
+}
+.activeChartLegend span:first-child {
+  text-align: left;
+}
+.activeChartLegend span:last-child {
+  text-align: right;
+}

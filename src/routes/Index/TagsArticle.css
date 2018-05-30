@@ -1,0 +1,18 @@
+.tagArticle {
+  margin-top: -20px;
+}
+.tagArticle :global(.ant-tabs-nav-scroll) {
+  text-align: center;
+  background: #fff;
+}
+.tagArticle .head {
+  padding: 20px 50px 0 50px;
+  background: #fff;
+}
+.tagArticle .head strong {
+  font-size: 32px;
+}
+.tagArticle .head .total {
+  margin-left: 30px;
+  color: #666;
+}

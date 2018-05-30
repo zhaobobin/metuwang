@@ -1,0 +1,33 @@
+{
+  "entry": "src/index.js",
+  "outputPath": "./dist/index/",
+  "publicPath": "/index/",
+  "hash": true,
+  "ignoreMomentLocale": true,
+  "theme": "./src/theme.js",
+
+  "extraBabelPlugins": [
+    "transform-runtime",
+    "transform-decorators-legacy",
+    "transform-class-properties",
+    ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": true }],
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": { "~": "./src" }
+    }]
+  ],
+  "env": {
+    "development": {
+      "extraBabelPlugins": [
+        "dva-hmr"
+      ]
+    }
+  },
+  "proxy": {
+    "/api": {
+      "target": "http://localhost:8080/",
+        "changeOrigin": true,
+        "pathRewrite": { "^/api" : "" }
+    }
+  }
+}

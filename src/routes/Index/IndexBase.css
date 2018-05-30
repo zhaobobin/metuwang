@@ -1,0 +1,34 @@
+.slide {
+  margin-left: 20px;
+}
+.slide .card {
+  margin-bottom: 20px;
+}
+.slide .card .more {
+  color: #999;
+  font-size: 12px;
+}
+.slide .card .more:hover {
+  color: #1890ff;
+}
+.slide :global(.ant-card-head-title) {
+  font-size: 14px;
+}
+.slide :global(.ant-card-body) {
+  padding: 15px 24px 10px;
+}
+.container {
+  margin-top: -20px;
+}
+.container .menu {
+  padding-top: 10px;
+  background: #fff;
+  border-bottom: 1px solid #e8e8e8;
+}
+.container .menu.fixed {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+}

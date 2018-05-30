@@ -1,0 +1,43 @@
+a{color:#666;}
+
+:global(.active){
+  color:#1890ff;text-decoration:none;border:none
+}
+
+.equipment{
+
+  .select{
+    margin:20px 0;
+    .section{
+      .label{
+        float:left;
+        &:after{
+          content: ':'
+        }
+      }
+      .link{
+        margin-left:70px;
+        a{
+          padding:0 10px;
+        }
+      }
+    }
+  }
+
+  .table{
+    :global(.ant-card){background:none;}
+    :global(.ant-card-body){padding:0}
+  }
+
+}
+
+.explore{
+  margin-top:20px;
+  .section{
+    margin-bottom:20px;
+    .title{
+      position:relative;
+      a{line-height:20px;position:absolute;right:0;top:50%;margin-top:-10px;}
+    }
+  }
+}

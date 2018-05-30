@@ -1,0 +1,12 @@
+:global(.ant-modal) {
+  width: 1428px;
+  height: 680px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -714px;
+  margin-top: -340px;
+}
+:global(.ant-modal-body) {
+  height: 680px;
+}

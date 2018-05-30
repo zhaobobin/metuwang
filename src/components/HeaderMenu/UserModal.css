@@ -1,0 +1,55 @@
+.userAction {
+  padding: 0 30px;
+  text-align: right;
+}
+.userAction a {
+  display: inline-block;
+}
+.userAction .username {
+  padding-left: 35px;
+  margin: 0 10px;
+  position: relative;
+  text-decoration: none;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.65);
+}
+.userAction .username img {
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  margin-top: -12px;
+}
+.userAction .username i {
+  font-size: 18px;
+  position: absolute;
+  left: 9px;
+  top: 50%;
+  margin-top: -8px;
+}
+.userAction .username:hover {
+  color: #fff;
+}
+.userAction .userBtn {
+  height: 30px;
+  margin: 0 10px;
+  padding: 0 25px;
+}
+.userModal img {
+  cursor: pointer;
+}
+.userModal :global(.ant-modal-body) {
+  padding: 15px;
+}
+.userModal :global(.ant-form-item-control) {
+  line-height: 32px;
+}
+.userModal :global(.ant-btn) {
+  width: 100%;
+}
+.userModal .forgotPsd {
+  float: right;
+}
